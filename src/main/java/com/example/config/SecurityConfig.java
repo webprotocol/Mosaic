@@ -25,7 +25,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		/*
 		 * 권한
 		 */
-		http.authorizeRequests()
+		http.csrf().disable()
+			.authorizeRequests()
 			.antMatchers("/country/**").hasRole("ADMIN")
 //			.antMatchers("/city/**").hasRole("ADMIN")
 			.and()
