@@ -77,14 +77,10 @@
 			<artifactId>sitemesh</artifactId>
 			<version>3.0.1</version>
 		</dependency>
+		
 		<dependency>
-			<groupId>org.javassist</groupId>
-			<artifactId>javassist</artifactId>
-		</dependency>
-		<dependency>
-		    <groupId>org.webjars.bower</groupId>
-		    <artifactId>summernote</artifactId>
-		    <version>0.8.2</version>
+		    <groupId>org.springframework.security</groupId>
+		    <artifactId>spring-security-taglibs</artifactId>
 		</dependency>
 	</dependencies>
 
