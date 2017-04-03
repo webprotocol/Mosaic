@@ -32,6 +32,8 @@
 <sec:authorize access="isAnonymous()">
 	xxxx
 </sec:authorize>
+<script type="text/javascript">
 
+</script>
 </body>
 </html>
